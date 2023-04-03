@@ -7,17 +7,17 @@
 
 #para
 {
-    background-color: rgb(177, 177, 180);
+    background-color: rgb(220, 220, 221);
     padding-top: 5px;
     padding-bottom: 2px;
     padding-left: 5px;
     padding-right: 5px;
-    height: 30px;
+    height: 25px;
     width: 80px;
     justify-content: center;
     /* bottom: -50%; */
     margin-top: 30px;
-    border-radius: 10px;
+    border-radius: 5px;
     color: #495057;
     font-weight: bold;
     text-shadow: 0 0 40px white;
@@ -38,7 +38,7 @@
 
 .cardsgroup
 {
-    margin-top: 40px;
+    margin-top: 100px;
   text-align: center;
   justify-content: center;
   display: flex;
@@ -95,16 +95,19 @@ span
     0% {
         transform: translateY(0px);
         transform: ease-in-out;
+        text-shadow: 0 0 30px #b1b1b2;
     }
 
     50% {
         transform: translateY(-10px);
         transform: ease-in-out;
+        text-shadow: 0 0 30px #b1b1b2;
     }
 
     100% {
         transform: translateY(0px);
         transform: ease-in-out;
+        text-shadow: 0 0 30px #b1b1b2;
     }
 }
 
