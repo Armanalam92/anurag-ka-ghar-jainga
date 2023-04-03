@@ -97,7 +97,7 @@ span
     }
 
     50% 
-        transform: translateY(10px);
+        transform: translateY(15px);
         transform: ease-in-out;
     }
 
