@@ -96,8 +96,8 @@ span
         transform: ease-in-out;
     }
 
-    50% {
-        transform: translateY(12px);
+    50% 
+        transform: translateY(10px);
         transform: ease-in-out;
     }
 
