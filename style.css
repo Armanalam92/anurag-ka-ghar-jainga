@@ -86,7 +86,7 @@ span
     font-size: 60px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: #495057;
-    animation: mover 6s linear infinite;
+    animation: mover 6s ;
 }
 
 @keyframes mover{
