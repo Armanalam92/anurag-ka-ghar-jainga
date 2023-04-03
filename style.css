@@ -86,24 +86,25 @@ span
     font-size: 60px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: #495057;
-    animation: mover 6s ;
+    animation: mover 6s linear infinite;
+    transition: all 0.3s ease;
 }
 
 @keyframes mover{
 
     0% {
-        transform: translateY(20px);
-        transition: all 0.5s ease;
+        transform: translateY(0px);
+        transform: ease-in-out;
     }
 
-    50% 
-        transform: translateY(15px);
-        transition: all 0.5s ease;
+    50% {
+        transform: translateY(-10px);
+        transform: ease-in-out;
     }
 
     100% {
-        transform: translateY(10px);
-        transition: all 0.5s ease;
+        transform: translateY(0px);
+        transform: ease-in-out;
     }
 }
 
