@@ -86,7 +86,7 @@ span
     font-size: 60px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: #495057;
-    animation: mover 2s linear;
+    animation: mover 0.5s linear;
     transition: all 0.3s ease;
 }
 
